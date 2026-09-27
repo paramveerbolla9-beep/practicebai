@@ -1,0 +1,56 @@
+body {
+  background: #000000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  color: #2CFF05;
+}
+
+h2{
+   color: white;
+}
+
+.task_card{
+
+  background-color: #BF00FF;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+
+}
+
+.task_card h2 {
+    color:#2CFF05; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px 30px;
+    margin-bottom: 16px;
+    background-color: #BF00FF;
+    border-radius: 8px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+p {
+  color: white;
+}
